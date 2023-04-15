@@ -1,0 +1,116 @@
+.clr{ 
+    clear:both;
+}
+/* above tag taken from this video to clear formatting-> author: traversymedia source:https://www.youtube.com/watch?v=yfoY53QXEnI */
+
+.topnav{
+    background-color: #333;
+    text-align: center; 
+    display: inline-block;
+    width:100%;
+    
+}
+
+body{
+    background-color: #012345;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    
+}
+
+.topnav a{
+    color: white;
+    background-color: #000000;
+    border: solid burlywood;
+    text-decoration: none;
+    width: 25%;
+    float:left;
+    box-sizing: border-box;
+    font-size: 20pt;
+}
+
+.topnav a:hover{
+    background-color: burlywood;
+    color: black;
+    
+}
+
+
+h1{
+    text-align: center;
+    font-size: 40pt;
+    background-color: burlywood;
+    margin:50pt;
+    border: solid black 5pt;
+    
+}
+
+h2{
+    font-size: 30pt;
+    
+}
+
+.block{
+    margin:50pt;
+    padding:50pt;
+    background-color: burlywood;
+    border: solid black 5pt;
+    
+    
+}
+
+.image img{
+    
+    width: 30%;
+    float:left;
+    padding: 5pt;
+    box-sizing: border-box;
+}
+
+.image p{
+    width: 70%;
+    height: 100%;
+    float: right;
+    padding: 5pt;
+    box-sizing: border-box;
+    font-size: 20pt;
+    
+}
+
+p{
+    font-size: 20pt; 
+}
+
+.sidebar{
+
+
+    margin-top:50pt;
+    margin-left:50pt;
+    padding:20pt;
+    background-color: burlywood;
+    border: solid black 5pt;
+    width: 25%; 
+    float:left;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+
+.smallerbdy{
+    display:flex;
+}
+    
+    
+
+.main{
+    width: 70%;
+    float:right;
+    box-sizing: border-box;
+    bottom:0;
+    
+    
+}
+
+.info{
+    font-size:15pt
+}
